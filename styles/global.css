@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rammetto+One&family=Sofia+Sans+Semi+Condensed&display=swap');
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+:root{
+    --color-base: #6F3AFF;
+    --color-base-oscuro: #20085E;
+    --color-base-claro: #D64DF6;
+    /* --color-acento: #F66766; */
+    --color-acento: #e06024;
+    --color-acento-selecto: #f66231;
+
+    --color-texto: #F3F8FC;
+    --color-extra: #0FFAFF;
+
+}

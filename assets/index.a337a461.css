@@ -1,0 +1,1 @@
+.grupo-artistas:where(.astro-HTCQSXOW){display:grid;gap:2em}@media (min-width: 768px){.grupo-artistas:where(.astro-HTCQSXOW){display:flex;flex-wrap:wrap;justify-content:center;align-content:center}}.contenedor:where(.astro-HTCQSXOW){display:flex;flex-direction:column;min-height:100vh;align-items:center;gap:2em;padding:4em 2em;max-width:960px;margin:0 auto}
