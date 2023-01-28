@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rammetto+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rammetto+One&family=Sofia+Sans+Semi+Condensed&display=swap');
-
 
 *,
 *::after,
@@ -8,19 +6,38 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    inset: 0;
 }
 
 :root{
-    --color-base: #6F3AFF;
-    --color-base-oscuro: #20085E;
-    --color-base-claro: #D64DF6;
-    /* --color-acento: #F66766; */
+    /* Colores */
+    --color-primario: #20085E;
+    --color-primario-selecto: #341582;
+
+    --color-secundario: #081B5E;
+    /* --color-secundario: #5885AF;
+    --color-secundario-selecto: #7bb2e4; */
+    
+    --color-texto: #fff;
+
     --color-acento: #e06024;
     --color-acento-selecto: #f66231;
 
-    --color-texto: #F3F8FC;
-    --color-extra: #0FFAFF;
+    /* Dimensiones */
+    --navbar-height: 64px;
+    --doc-max-width: 1080px;
+}
 
+
+.contenido-pagina {
+    display: flex;
+	flex-direction: column;
+
+    align-items: center;
+
+	max-width: var(--doc-max-width);
+	margin: 0 auto;
+
+	padding: 4em 2em;
+	gap: 2em;
 }

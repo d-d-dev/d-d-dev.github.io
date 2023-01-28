@@ -1,0 +1,1 @@
+.grupo-artistas:where(.astro-4LANGEAD){display:grid;justify-content:center;justify-items:center;gap:2em}@media (min-width: 768px){.grupo-artistas:where(.astro-4LANGEAD){grid-template-columns:repeat(4,1fr)}}
